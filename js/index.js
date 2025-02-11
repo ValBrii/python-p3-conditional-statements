@@ -21,7 +21,7 @@ function howsTheWeather(temperature) {
   let response;
   if (temperature < 40) {
     response = "brisk";
-  } else if (temperature >= 40 && temperature <= 65) {
+  } else if (temperature <= 40 && temperature <= 65) {
     response = "a little chilly";
   } else if (temperature > 85) {
     response = "too dang hot";
